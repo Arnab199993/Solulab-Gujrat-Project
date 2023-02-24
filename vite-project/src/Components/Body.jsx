@@ -86,7 +86,7 @@ const Body = () => {
                 <div style={{ border: "3px solid #F5F5F5", width: "180PX", height: "20px", marginTop: "8px", marginLeft: "20px", padding: '5px', borderRadius: "5px" }}>
                     <span style={{ display: "flex", justifyContent: "center", fontSize: "14px" }}>Send Message</span>
                 </div>
-                <div style={{ display: "flex", marginLeft: "103px", backgroundColor: "#F8F8F8" }}>
+                <div style={{ display: "flex", marginLeft: "75px", backgroundColor: "#F8F8F8" }}>
                     <div style={{ border: "3px solid #F5F5F5", width: "180PX", height: "20px", padding: '5px', borderRadius: "5px" }}>
                         <span style={{ display: "flex", justifyContent: "center", color: "#4469BA", fontSize: "12px", backgroundColor: "#FFFFFF", padding: "7px" }}>Upcoming Assignment</span>
                     </div>
@@ -100,22 +100,51 @@ const Body = () => {
             </div>
 
 
-            <div style={{ marginLeft: "100px" }}>
+            <div style={{ marginLeft: "24px", marginTop: "59px", fontSize: "16px" }}>
                 <div>
-                    Files
+                    <span>Files/Documents</span>
                 </div>
-                <div>
-                    a
+                <div style={{ marginTop: "29px", width: "185px", height: "49px", border: "1px solid #F9F9F9", backgroundColor: "#F9F9F9" }}>
+                    <div style={{ display: "flex" }}>
+                        <div>
+                            <img style={{ marginTop: "17px", marginLeft: "20px" }} src={"PDF.png"} />
+                        </div>
+                        <div style={{ marginTop: "17px" }}>
+                            <span style={{ fontSize: "12px", marginLeft: "10px" }}>Check Up Results.pdf</span>
+                        </div>
+                    </div>
+
                 </div>
-                <div>
-                    b
+                <div style={{ marginTop: "8px", width: "185px", height: "49px", border: "1px solid #F9F9F9", backgroundColor: "#F9F9F9" }}>
+                    <div style={{ display: "flex" }}>
+                        <div>
+                            <img style={{ marginTop: "17px", marginLeft: "20px" }} src={"PDF.png"} />
+                        </div>
+                        <div style={{ marginTop: "17px" }}>
+                            <span style={{ fontSize: "12px", marginLeft: "10px" }}>Check Up Results.pdf</span>
+                        </div>
+                    </div>
                 </div>
 
-                <div>
-                    c
+                <div style={{ marginTop: "8px", width: "185px", height: "49px", border: "1px solid #F9F9F9", backgroundColor: "#F9F9F9" }}>
+                    <div style={{ display: "flex" }}>
+                        <div>
+                            <img style={{ marginTop: "17px", marginLeft: "20px" }} src={"PDF.png"} />
+                        </div>
+                        <div style={{ marginTop: "17px" }}>
+                            <span style={{ fontSize: "12px", marginLeft: "10px" }}>Medical Prescription.pdf</span>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    d
+                <div style={{ marginTop: "8px", width: "185px", height: "49px", border: "1px solid #F9F9F9", backgroundColor: "#F9F9F9" }}>
+                    <div style={{ display: "flex" }}>
+                        <div>
+                            <img style={{ marginTop: "17px", marginLeft: "20px" }} src={"PDF.png"} />
+                        </div>
+                        <div style={{ marginTop: "17px" }}>
+                            <span style={{ fontSize: "12px", marginLeft: "10px" }}>Dental X ray result.pdf</span>
+                        </div>
+                    </div>
                 </div>
             </div>
 
