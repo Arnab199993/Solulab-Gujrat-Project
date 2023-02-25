@@ -2,6 +2,8 @@ import React from 'react'
 import Body from './Body'
 
 
+
+
 const FrontPage = () => {
     return (
         <div style={{ border: "1px solid #FFFFFF", height: "681px", width: " 1171px", marginLeft: "200px", backgroundColor: "#FFFFFF" }}>
@@ -43,19 +45,12 @@ const FrontPage = () => {
                                 <span style={{ fontSize: "12px", color: "rgba(0, 0, 0, 0.3)" }}>Loadout</span>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div>
                     <Body />
                 </div>
             </div>
-
-
-
-
-
-
 
         </div>
     )

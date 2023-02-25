@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Body = () => {
     return (
         <div>
@@ -88,7 +89,7 @@ const Body = () => {
                 </div>
                 <div style={{ display: "flex", marginLeft: "75px", backgroundColor: "#F8F8F8" }}>
                     <div style={{ border: "3px solid #F5F5F5", width: "180PX", height: "20px", padding: '5px', borderRadius: "5px" }}>
-                        <span style={{ display: "flex", justifyContent: "center", color: "#4469BA", fontSize: "12px", backgroundColor: "#FFFFFF", padding: "7px" }}>Upcoming Assignment</span>
+                        <span style={{ display: "flex", justifyContent: "center", color: "#4469BA", fontSize: "12px", backgroundColor: "#FFFFFF", padding: "7px" }}>Upcoming Appointments</span>
                     </div>
                     <div style={{ marginLeft: "10px", border: "3px solid #F5F5F5", width: "160PX", height: "20px", padding: '5px', borderRadius: "5px" }}>
                         <span style={{ display: "flex", justifyContent: "center", color: "#6B6B6B", fontSize: "12px" }}>Past Appointments</span>
@@ -100,59 +101,188 @@ const Body = () => {
             </div>
 
 
-            <div style={{ marginLeft: "24px", marginTop: "59px", fontSize: "16px" }}>
+            <div style={{ display: "flex" }}>
                 <div>
-                    <span>Files/Documents</span>
-                </div>
-                <div style={{ marginTop: "29px", width: "185px", height: "49px", border: "1px solid #F9F9F9", backgroundColor: "#F9F9F9" }}>
-                    <div style={{ display: "flex" }}>
+                    <div style={{ marginLeft: "24px", marginTop: "59px", fontSize: "16px" }}>
                         <div>
-                            <img style={{ marginTop: "17px", marginLeft: "20px" }} src={"PDF.png"} />
+                            <span>Files/Documents</span>
                         </div>
-                        <div style={{ marginTop: "17px" }}>
-                            <span style={{ fontSize: "12px", marginLeft: "10px" }}>Check Up Results.pdf</span>
+                        <div style={{ marginTop: "29px", width: "185px", height: "49px", border: "1px solid #F9F9F9", backgroundColor: "#F9F9F9" }}>
+                            <div style={{ display: "flex" }}>
+                                <div>
+                                    <img style={{ marginTop: "17px", marginLeft: "20px" }} src={"PDF.png"} />
+                                </div>
+                                <div style={{ marginTop: "17px" }}>
+                                    <span style={{ fontSize: "12px", marginLeft: "10px" }}>Check Up Results.pdf</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div style={{ marginTop: "8px", width: "185px", height: "49px", border: "1px solid #F9F9F9", backgroundColor: "#F9F9F9" }}>
+                            <div style={{ display: "flex" }}>
+                                <div>
+                                    <img style={{ marginTop: "17px", marginLeft: "20px" }} src={"PDF.png"} />
+                                </div>
+                                <div style={{ marginTop: "17px" }}>
+                                    <span style={{ fontSize: "12px", marginLeft: "10px" }}>Check Up Results.pdf</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style={{ marginTop: "8px", width: "185px", height: "49px", border: "1px solid #F9F9F9", backgroundColor: "#F9F9F9" }}>
+                            <div style={{ display: "flex" }}>
+                                <div>
+                                    <img style={{ marginTop: "17px", marginLeft: "20px" }} src={"PDF.png"} />
+                                </div>
+                                <div style={{ marginTop: "17px" }}>
+                                    <span style={{ fontSize: "12px", marginLeft: "10px" }}>Medical Prescription.pdf</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div style={{ marginTop: "8px", width: "185px", height: "49px", border: "1px solid #F9F9F9", backgroundColor: "#F9F9F9" }}>
+                            <div style={{ display: "flex" }}>
+                                <div>
+                                    <img style={{ marginTop: "17px", marginLeft: "20px" }} src={"PDF.png"} />
+                                </div>
+                                <div style={{ marginTop: "17px" }}>
+                                    <span style={{ fontSize: "12px", marginLeft: "10px" }}>Dental X ray result.pdf</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div style={{ marginTop: "20px", marginLeft: "80px", width: "760px", height: "310px", border: "1px solid #F8F8F8", backgroundColor: "#F8F8F8" }}>
+
+                    <div style={{ display: "flex", justifyContent: "space-between" }}>
+                        <div style={{ marginLeft: "28px", marginTop: "22px" }}>
+                            <span>Root Canal Treatment</span>
+                        </div>
+
+                        <div style={{ marginRight: "28px", marginTop: "15px" }}>
+                            <div style={{ width: "170px", height: "33px", border: "1px solid #F8F8F8", backgroundColor: "#FFFFFF", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                                <span>Show Previous Treatment</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div style={{ display: "flex", border: "1px solid #F8F8F8", marginLeft: "25px", width: "714px", height: "86px", justifyContent: "space-between", backgroundColor: "#FFFFFF", borderRadius: "3px" }}>
+                        <div>
+                            <div style={{ marginTop: "13px" }}>
+                                <span style={{ fontWeight: "700", fontSize: "24px", color: "#242831", marginLeft: "23px" }}>26th Nov'19</span>
+                            </div>
+                            <div>
+                                <span style={{ marginLeft: "23px", fontSize: "12px", fontWeight: "400", color: "#6B6B6B" }}>09:00-10:00</span>
+                            </div>
+
+                        </div>
+                        <div>
+                            <div style={{ marginTop: "23px" }}>
+                                <span style={{ fontSize: "12px", color: "#6B6B6B" }} >Treatment</span>
+                            </div>
+                            <div>
+                                <span style={{ fontSize: "16px", color: "#242831", fontWeight: "400" }}>Open Access</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div style={{ marginTop: "23px" }}>
+                                <span style={{ fontSize: "12px", color: "#6B6B6B" }} >Dentist</span>
+                            </div>
+                            <div>
+                                <span style={{ fontSize: "14px", color: "#242831", fontWeight: "400" }}>Drg Adam H</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div style={{ marginTop: "23px" }}>
+                                <span style={{ fontSize: "12px", color: "#6B6B6B" }}>Nurse</span>
+                            </div>
+                            <div>
+                                <span style={{ fontSize: "14px", color: "#242831" }}>Jessicamila</span>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                        <div style={{ display: "flex", marginTop: "38.12px", marginRight: "26px" }}>
+                            <div >
+                                <img src={"Note.png"} />
+                            </div>
+                            <div>
+                                <span style={{ marginLeft: "6px", color: "#3156C8" }}>Note</span>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+                    <div style={{ display: "flex", border: "1px solid #F8F8F8", marginLeft: "25px", width: "714px", height: "86px", justifyContent: "space-between", backgroundColor: "#FFFFFF", marginTop: "15px", borderRadius: "5px" }}>
+                        <div>
+                            <div style={{ marginTop: "13px" }}>
+                                <span style={{ fontWeight: "700", fontSize: "24px", color: "#242831", marginLeft: "23px" }}>26th Nov'19</span>
+                            </div>
+                            <div>
+                                <span style={{ marginLeft: "23px", fontSize: "12px", fontWeight: "400", color: "#6B6B6B" }}>09:00-10:00</span>
+                            </div>
+
+                        </div>
+                        <div>
+                            <div style={{ marginTop: "23px" }}>
+                                <span style={{ fontSize: "12px", color: "#6B6B6B" }}>Treatment</span>
+                            </div>
+                            <div>
+                                <span style={{ fontSize: "16px", color: "#242831", fontWeight: "400" }}>Root Canal</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div style={{ marginTop: "23px" }}>
+                                <span style={{ fontSize: "12px", color: "#6B6B6B" }} >Dentist</span>
+                            </div>
+                            <div>
+                                <span style={{ fontSize: "14px", color: "#242831", fontWeight: "400" }}>Drg Adam H</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div style={{ marginTop: "23px" }}>
+                                <span style={{ fontSize: "12px", color: "#6B6B6B" }}>Nurse</span>
+                            </div>
+                            <div >
+                                <span style={{ fontSize: "14px", color: "#242831" }}>Jessicamila</span>
+
+                            </div>
+                        </div>
+                        <div style={{ display: "flex", marginTop: "38.12px", marginRight: "26px" }}>
+                            <div >
+                                <img src={"Note.png"} />
+                            </div>
+                            <div>
+                                <span style={{ marginLeft: "6px", color: "#3156C8" }}>Note</span>
+                            </div>
                         </div>
                     </div>
 
                 </div>
-                <div style={{ marginTop: "8px", width: "185px", height: "49px", border: "1px solid #F9F9F9", backgroundColor: "#F9F9F9" }}>
-                    <div style={{ display: "flex" }}>
-                        <div>
-                            <img style={{ marginTop: "17px", marginLeft: "20px" }} src={"PDF.png"} />
-                        </div>
-                        <div style={{ marginTop: "17px" }}>
-                            <span style={{ fontSize: "12px", marginLeft: "10px" }}>Check Up Results.pdf</span>
-                        </div>
-                    </div>
-                </div>
 
-                <div style={{ marginTop: "8px", width: "185px", height: "49px", border: "1px solid #F9F9F9", backgroundColor: "#F9F9F9" }}>
-                    <div style={{ display: "flex" }}>
-                        <div>
-                            <img style={{ marginTop: "17px", marginLeft: "20px" }} src={"PDF.png"} />
-                        </div>
-                        <div style={{ marginTop: "17px" }}>
-                            <span style={{ fontSize: "12px", marginLeft: "10px" }}>Medical Prescription.pdf</span>
-                        </div>
-                    </div>
-                </div>
-                <div style={{ marginTop: "8px", width: "185px", height: "49px", border: "1px solid #F9F9F9", backgroundColor: "#F9F9F9" }}>
-                    <div style={{ display: "flex" }}>
-                        <div>
-                            <img style={{ marginTop: "17px", marginLeft: "20px" }} src={"PDF.png"} />
-                        </div>
-                        <div style={{ marginTop: "17px" }}>
-                            <span style={{ fontSize: "12px", marginLeft: "10px" }}>Dental X ray result.pdf</span>
-                        </div>
-                    </div>
-                </div>
+
+
             </div>
-
-
-
-
-
-
         </div>
     )
 }
