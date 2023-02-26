@@ -18,7 +18,7 @@ const FrontPage = () => {
                         <div style={{ width: "43px", height: "586px", border: "1px solid #FFFFFF", marginTop: "20px", marginLeft: "17px" }}>
                             <div style={{ marginTop: "5px", marginLeft: "10px" }}>
                                 <img height={"25px"} width={"25px"} src={"./Plus.png"} />
-                                <span style={{ fontSize: "12px", color: "rgba(0, 0, 0, 0.3)" }}>New</span>
+                                <span style={{ fontSize: "12px", color: "rgba(0, 0, 0, 0.3)", fontWeight: "400" }}>New</span>
                             </div>
                             <div style={{ marginTop: "35px", marginLeft: "10px" }}>
                                 <img height={"25px"} width={"25px"} src={"image.png"} />
